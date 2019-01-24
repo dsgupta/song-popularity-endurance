@@ -5,6 +5,7 @@ Data Scraping and Aggregating Scripts:
     - playback_fm.py : Scrape playbackFm for the songs in billboard
     - merged_data.py : Merge Spotify dataset to the rest of the dataset
     - clean_aggregated_data.py : Clean the final dataset
+    - spotify_scrape.py : Spotify scraper for Billboard data 
 
  Models:
     - songs-project.ipynb : Jupyter Playbook containing the prediction models
