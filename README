@@ -1,0 +1,13 @@
+Data Scraping and Aggregating Scripts:
+    - billboard_main.py : Scrape billboard hot-100
+    - billboard_aggregate.py : Aggregate billboard features by songs
+    - last_fm.py : Scrape lastfm for the songs in billboard
+    - playback_fm.py : Scrape playbackFm for the songs in billboard
+    - merged_data.py : Merge Spotify dataset to the rest of the dataset
+    - clean_aggregated_data.py : Clean the final dataset
+
+ Models:
+    - songs-project.ipynb : Jupyter Playbook containing the prediction models
+
+ Visualization:
+    - songs-dsf-visualization.ipynb : Jupyter Playbook containing the visualizations on the data
