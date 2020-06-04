@@ -53,8 +53,8 @@ fields=['title', 'artist', 'album_name','total_tracks','release_date','album_pop
 dw = csv.DictWriter(output,fieldnames=fields)
 dw.writeheader()
 err = csv.writer(error, delimiter=',')
-token = util.oauth2.SpotifyClientCredentials(client_id='4602ec861aac4d5c818f101c8b990577',
-                                                      client_secret='c297764f6eaa4282b9a48719c11a537b')
+token = util.oauth2.SpotifyClientCredentials(client_id='xxx',
+                                                      client_secret='yyy')
 cache_token = token.get_access_token()
 sp = spotipy.Spotify(cache_token)
 for i, row in df.iterrows():
